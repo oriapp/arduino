@@ -4,7 +4,7 @@ My Projects Arduino UNO
 
 # Project #1
 
-< Blink when something is around the sensor (Arduino UNO)
+> Blink when something is around the sensor (Arduino UNO)
 
 
 
