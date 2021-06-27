@@ -1,18 +1,18 @@
 # include <LiquidCrystal.h>
 
-const int trigPin = 7;
-const int echoPin = 8;
+const int trigPin = 7; //  Blonk Blue
+const int echoPin = 8; // Blink red
 
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // LCD parameters
 
 void setup(){
-  lcd.begin(16, 2);
+  lcd.begin(16, 2); // Shhot up the LCD (;
   Serial.begin(9600);
   
 }
 
 void loop(){
-  lcd.clear();
+  lcd.clear(); // clear all inputs before printing anythign 
   long duration, inches, cm, mm;
   pinMode(trigPin, OUTPUT); 
   digitalWrite(trigPin, LOW); 
